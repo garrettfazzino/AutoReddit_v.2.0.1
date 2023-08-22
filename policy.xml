@@ -1,0 +1,21 @@
+<policymap>
+  <policymap>
+    <rights>read | write</rights>
+    <pattern>*</pattern>
+    <parameters>
+      <parameter name="size" value="10000000@10000000"/>
+    </parameters>
+  </policymap>
+  <policymap>
+    <rights>read | write</rights>
+    <pattern>AVI</pattern>
+    <pattern>MOV</pattern>
+    <pattern>MPEG</pattern>
+    <pattern>MP4</pattern>
+    <pattern>WEBM</pattern>
+    <parameters>
+      <parameter name="size" value="10000000@10000000"/>
+      <parameter name="fps" value="60"/>
+    </parameters>
+  </policymap>
+</policymap>
